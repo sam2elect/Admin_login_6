@@ -15,6 +15,15 @@ namespace Admin_login_6
     {
 
         /// <summary>
+        /// login_lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor login_lbl;
+
+        /// <summary>
         /// Button_logout control.
         /// </summary>
         /// <remarks>

@@ -24,6 +24,14 @@ namespace Admin_login_6
             {
                 Button_logout.Visible = true;
             }
+            if (Session["userID"] == null)
+            {
+                login_lbl.Visible = true;
+            }
+            else
+            {
+                login_lbl.Visible = false;
+            }
         }
 
         protected void Logout_click(object sender, EventArgs e)
