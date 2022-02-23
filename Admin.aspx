@@ -35,7 +35,7 @@
                 </div>
                 <br />
                 <div class="glow-on-hover center" style="margin-top:60px" >
-                <asp:Button ID="Button_submit" runat="server" Text="Submit" BackColor="Black" BorderStyle="None" CausesValidation="True" EnableTheming="True" Enabled="True" EnableViewState="True" UseSubmitBehavior="True" ValidateRequestMode="Inherit" Visible="True" Font-Size="Larger" OnClick="Submit_click"  />
+                <asp:Button ID="Button_submit" runat="server" Text="Submit" BackColor="Black" BorderStyle="None" CausesValidation="True" EnableTheming="True" Enabled="True" EnableViewState="True" UseSubmitBehavior="True" ValidateRequestMode="Inherit" Visible="True" Font-Size="Larger" OnClick="Submit_click"  OnClientClick="Success_click" />
             </div>
         </div>
     </div>

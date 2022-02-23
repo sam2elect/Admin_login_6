@@ -33,7 +33,10 @@ namespace Admin_login_6
             settings.DefaultPageText4 = TextBox_footer.Text;
             Manager.SaveSettings(Server.MapPath("~/App_Data/Settings.xml"), settings);
             Application["settings"] = settings;
-
+            
+            ScriptManager.RegisterStartupScript(this, typeof(Page), "Alert",
+            "<script>alert('" + "Settings Saved Successfully" + "');</script>", false);
         }
+       
     }
 }

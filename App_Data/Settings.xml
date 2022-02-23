@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <DefaultPageText1>Welcome To</DefaultPageText1>
-  <DefaultPageText2>KtsInfotech</DefaultPageText2>
+  <DefaultPageText1>Welcome Samir</DefaultPageText1>
+  <DefaultPageText2>To KtsInfotech</DefaultPageText2>
   <DefaultPageText3>KtsInfotech-Header</DefaultPageText3>
   <DefaultPageText4>KtsInfotech-Footer</DefaultPageText4>
 </Settings>
