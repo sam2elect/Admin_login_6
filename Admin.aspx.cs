@@ -19,6 +19,9 @@ namespace Admin_login_6
             {
                 Settings settings = (Settings)Application["settings"];
                 TextBox_text1.Text = settings.DefaultPageText1;
+                TextBox_text2.Text = settings.DefaultPageText2;
+                TextBox_header.Text = settings.DefaultPageText3;
+                TextBox_footer.Text = settings.DefaultPageText4;
             }
         }
         protected void Submit_click(object sender, EventArgs e)
