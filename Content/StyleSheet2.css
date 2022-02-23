@@ -1,0 +1,270 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-image: url('../image/bg_img_xxp.jpg');
+    background-color: #00ffd5; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.para {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+}
+.back_img {
+    background-image: url('../image/bg_img_admin.jpg');
+    height: 70vh;
+    width: 50vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #000000
+}
+
+
+
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    padding: 10px;
+    text-align: center
+}
+
+/* This is a text box  */
+.test {
+    -moz-border-radius-topright: 30px;
+    -webkit-border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid #848484;
+    outline: 0;
+    height: 25px;
+    width: 200px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+
+/* This is a text box  */
+
+.col {
+    margin-top: 12px;
+    display: inline-block;
+    position: relative;
+}
+
+.textbox {
+    width: 180px;
+    padding: 4px 2px;
+    font: 14px/27px "Lato", Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border: 0;
+    border: 1px solid #ccc;
+    transition: 0.4s;
+    background: transparent;
+}
+
+    .textbox ~ .focus-border:before,
+    .textbox ~ .focus-border:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 2px;
+        background-color: #3399FF;
+        transition: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .textbox ~ .focus-border:after {
+        top: auto;
+        bottom: 0;
+        right: auto;
+        left: 0;
+        transition-delay: 0.6s;
+    }
+
+    .textbox ~ .focus-border i:before,
+    .textbox ~ .focus-border i:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2px;
+        height: 0;
+        background-color: #3399FF;
+        transition: 0.2s;
+    }
+
+    .textbox ~ .focus-border i:after {
+        left: auto;
+        right: 0;
+        top: auto;
+        bottom: 0;
+        transition-delay: 0.4s;
+    }
+
+    .textbox:focus ~ .focus-border:before,
+    .textbox:focus ~ .focus-border:after,
+    .has-content.textbox ~ .focus-border:before,
+    .has-content.textbox ~ .focus-border:after {
+        width: 100%;
+        transition: 0.2s;
+        transition-delay: 0.6s;
+    }
+
+    .textbox:focus ~ .focus-border:after,
+    .has-content.textbox ~ .focus-border:after {
+        transition-delay: 0.2s;
+    }
+
+    .textbox:focus ~ .focus-border i:before,
+    .textbox:focus ~ .focus-border i:after,
+    .has-content.textbox ~ .focus-border i:before,
+    .has-content.textbox ~ .focus-border i:after {
+        height: 100%;
+        transition: 0.2s;
+    }
+
+    .textbox:focus ~ .focus-border i:after,
+    .has-conten.textbox ~ .focus-border i:after {
+        transition-delay: 0.4s;
+    }
+
+    .textbox ~ label {
+        text-align: left;
+        position: absolute;
+        left: 14px;
+        width: 100%;
+        top: 10px;
+        color: #aaa;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .textbox:focus ~ label,
+    .has-content.textbox ~ label {
+        top: -18px;
+        left: 0;
+        font-size: 12px;
+        color: #3399FF;
+        transition: 0.3s;
+    }
+
+    .textbox:focus {
+        outline: none;
+    }
+
+
+
+
+
+
+
+/* This is a button  */
+.glow-on-hover {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+    .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 5s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 30px;
+    }
+
+    .glow-on-hover:active {
+        color: #000
+    }
+
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+
+    .glow-on-hover:hover:before {
+        opacity: 1;
+    }
+
+    .glow-on-hover:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #111;
+        left: 0;
+        top: 0;
+        border-radius: 30px;
+    }
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
