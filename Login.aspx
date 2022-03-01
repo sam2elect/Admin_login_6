@@ -29,7 +29,7 @@
             <br />
             <br />
             <div class="glow-on-hover center">
-                <asp:Button ID="Button_login" runat="server" Text="Login" BackColor="Black" BorderStyle="None" CausesValidation="True" EnableTheming="True" Enabled="True" EnableViewState="True" UseSubmitBehavior="True" ValidateRequestMode="Inherit" Visible="True" Font-Size="Larger" OnClick="Login_click" />
+                <asp:Button ID="Button_login" runat="server" Text="Login" BackColor="Black" BorderStyle="None" CausesValidation="True" EnableTheming="True" Enabled="True" EnableViewState="True" UseSubmitBehavior="True" ValidateRequestMode="Inherit" Visible="True" Font-Size="Larger" OnClick="Login_click" OnClientClick="return confirm('Are you sure you want to Login')" />
             </div>
             </div>
   </div>

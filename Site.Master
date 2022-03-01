@@ -60,7 +60,7 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a ID="login_lbl" runat="server" href="~/Login">Login</a></li> 
-                        <li><asp:Button Style="padding:15px" ID="Button_logout" runat="server" Text="Logout" ForeColor="white" BackColor="Black" BorderStyle="none" OnClientClick="Logout_click" OnClick="Logout_click" /></li>
+                        <li><asp:Button Style="padding:15px" ID="Button_logout" runat="server" Text="Logout" ForeColor="white" BackColor="Black" BorderStyle="none" OnClientClick="return confirm('You are about to Logout')" OnClick="Logout_click" /></li>
                     </ul>
                     <ul class="nav navbar-nav center" style="padding:15px;">
                        

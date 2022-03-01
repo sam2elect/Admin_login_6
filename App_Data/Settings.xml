@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <DefaultPageText1>Welcome Samir</DefaultPageText1>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultPageText1>Welcome</DefaultPageText1>
   <DefaultPageText2>To KtsInfotech</DefaultPageText2>
   <DefaultPageText3>KtsInfotech-Header</DefaultPageText3>
   <DefaultPageText4>KtsInfotech-Footer</DefaultPageText4>
